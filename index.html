@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navdesk">
+        <p class="logo"><img class="logointro" src="img/fysiken-logo-white-254.png"></p>
+        <p class="nav1"><strong class="naviga">ANLÄGGNINGAR</strong></p>
+        <p class="nav2"><strong class="naviga">GRUPPTRÄNING</strong></p>
+        <p class="nav3"><strong class="naviga">PERSONLIG TRÄNARE</strong></p>
+        <p class="nav4"><strong class="naviga">BLI MEDLEM</strong></p>
+    </nav>
+    <img class="welcome" src="img/gymintro.JPG">
+    <div class="bildspel">
+        <div class="w3-content w3-display-container">
+            <img class="mySlides"  src="img/gymfakta.jpg" style="width:100%; height:400px;">
+            <img class="mySlides"  src="img/gymintro2.JPG" style="width:100%; height:400px;">
+            <img class="mySlides"  src="img/gymintro3.JPG" style="width:100%; height:400px;">
+            <img class="mySlides"  src="img/gymintro4.JPG" style="width:100%; height:400px;">
+          
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    <img class="gymback1" src="img/gymback.jfif">
+    </div>
+    <div class="bryt">
+        <strong>VAD VILL DU TRÄNA IDAG?</strong>
+    </div>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          if (n > x.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          x[slideIndex-1].style.display = "block";  
+        }
+    </script>
+        
+    
+        
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+}
+.navdesk {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-areas: 
+    "lo n1 n2 n3 n4"
+    ;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logointro {
+    width: 140px;
+    height: 50px;
+    grid-area: lo;
+    margin: 20px;
+}
+.naviga {
+    color: white;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    margin: 50px;
+}
+.nav4 {
+    background-color: #78c70a;
+    border-radius: 40px;
+    padding: 15px;
+}
+.welcome {
+    width: 100%
+}
+.bildspel {
+    display: grid;
+    grid-template-areas:
+    "w3-content w3-display-container gymback1"
+    ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.gymback1 {
+    width: 630px;
+    height: 400px;
+}
+.bryt {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
