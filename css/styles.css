@@ -1,57 +1,191 @@
 * {
     margin: 0;
 }
-.navdesk {
-    background-color: black;
-    width: 100%;
-    height: 80px;
-    display: grid;
-    grid-template-areas: 
-    "lo n1 n2 n3 n4"
-    ;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+@media only screen and (min-width: 416px) {
+    .navdesk {
+        background-color: black;
+        width: 100%;
+        height: 80px;
+        display: grid;
+        grid-template-areas: 
+        "lo n1 n2 n3 n4"
+        ;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logointro {
+        width: 140px;
+        height: 50px;
+        grid-area: lo;
+        margin: 20px;
+    }
+    .naviga {
+        color: white;
+        font-size: 20px;
+        font-family: 'Work Sans', sans-serif;
+        margin: 50px;
+    }
+    .nav4 {
+        background-color: #78c70a;
+        border-radius: 40px;
+        padding: 15px;
+    }
+    .welcome {
+        width: 100%
+    }
+    .bildspel {
+        display: grid;
+        grid-template-areas:
+        "w3-content w3-display-container gymback1"
+        ;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    .gymback1 {
+        width: 630px;
+        height: 400px;
+    }
+    .bryt {
+        background-color: black;
+        color: white;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        
+    }
+
 }
-.logointro {
-    width: 140px;
-    height: 50px;
-    grid-area: lo;
-    margin: 20px;
-}
-.naviga {
-    color: white;
-    font-size: 20px;
-    font-family: 'Work Sans', sans-serif;
-    margin: 50px;
-}
-.nav4 {
-    background-color: #78c70a;
-    border-radius: 40px;
-    padding: 15px;
-}
-.welcome {
-    width: 100%
-}
-.bildspel {
-    display: grid;
-    grid-template-areas:
-    "w3-content w3-display-container gymback1"
-    ;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-}
-.gymback1 {
-    width: 630px;
-    height: 400px;
-}
-.bryt {
-    background-color: black;
-    color: white;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
+
+
+@media only screen and (max-width: 415px) {
+    .mobilestart {
+        width: 100%;
+        height: 4000px;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .navdesk {
+        display: none;
+    }
+    .logointro {
+        display: none;
+    }
+    .naviga {
+        display: none;
+    }
+    .nav4 {
+        display: none;
+    }
+    .welcome {
+        display: none;
+    }
+    .bildspel {
+        display: none;
+    }
+    .gymback1 {
+        display: none;
+    }
+    .bryt {
+        display: none;
+    }
+    .menu{
+        height: 100vh;
+        width: 100%;
+        background: hotpink;
+        position: fixed;
+        top: 0;
+        left: -90vh;
+        transition: left 0.3s;
+        box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+        z-index: 10;
+        display: none;
+    }
+    
+    .menu-button{
+        cursor: pointer;
+        display: inline;
+        grid-area: mb;
+    }
+    
+    .menu-button i.material-icons{
+        font-size: 4rem;
+        grid-area: mb;
+        color: white;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+    
+    .show{
+        left: 0;
+    }
+    .navmobil {
+        width: 100%;
+        height: 150px;
+        background-color: black;
+        grid-template-areas: 
+        "lo mb"
+        ;
+    }
+    .logomobil {
+        width: 40%;
+        height: 40%;
+        margin-left: 30px;
+        margin-bottom: 21px;
+    }
+    .welcome1 {
+        width: 100%;
+        height: 180px;
+    }
+    .gymfaktis {
+        width: 100%;
+        height: 200px;
+    }
+    .yoga {
+        width: 100%;
+        height: 280px;
+    }
+    .yogafakta {
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 150px;
+    }
+    .yinis {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .yinis2 {
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .yinis3 {
+        font-size: 20px;
+        margin-left: 50%;
+        padding: 10px;
+        background-color: #78c70a;
+        border-radius: 30px;
+    }
+    .klättra {
+        width: 100%;
+        height: 240px;
+    }
+    .yinis4 {
+        font-size: 20px;
+        margin-left: 20%;
+        padding: 10px;
+        background-color: #78c70a;
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+    .belowfooter {
+        background-color: #191919;
+        color: white;
+    }
+
     
 }
