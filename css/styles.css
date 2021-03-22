@@ -193,7 +193,7 @@
     }
     .gruppnavigator {
         display: grid;
-        height: 500px;
+        height: 600px;
         grid-template-areas: 
         "co fu ko"
         "st av bo"
@@ -256,50 +256,484 @@
         margin: 40px;
         border-radius: 100px;
     }
-    .corebeskrivning {
-        height: 930px;
-        background-color: darkred;
-        display: grid;
-        grid-template-areas:
-        "br va"
-        "bo b1"
-        "ku b2"
-    }
-    .bildbeskrivning1 {
-        width: 400px;
-        height: 400px;
-        grid-area: b1;
-        border-radius: 50px;
-    }
-    .bildbeskrivning2 {
-        width: 400px;
-        height: 400px;
-        grid-area: b2;
-        border-radius: 50px;
-    }
+
     .beskrivningrubrik {
         grid-area: br;
         color: white;
-        font-size: 100px;
+        font-size: 60px;
         margin-left: 20px;
     }
     .beskrivningompasset {
         grid-area: bo;
         color: white;
-        font-size: 25px;
+        font-size: 20px;
         margin-left: 20px;
     }
-    .kuriosabild {
-        grid-area: ku;
-        width: 500px;
-        height: 500px;
+    .corebeskrivning {
+        height: 150px;
+        background-color: darkred;
+
     }
     .vadvierbjuder {
-        grid-area: va;
+        background-color: darkred;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
         color: white;
-        font-size: 40px;
-        margin-right: 20px;
     }
+    .corebilder {
+        display: grid;
+        height: 400px;
+        background-color: darkred;
+        grid-template-areas: 
+        "lc tr pc"
+        ;
+    }
+    .funktionellbeskrivning {
+        height: 150px;
+        background-color: darkblue;
+
+    }
+    .vadvierbjuder2 {
+        background-color: darkblue;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .funktionellabilder {
+        display: grid;
+        height: 300px;
+        background-color: darkblue;
+        grid-template-areas: 
+        "powercircuitbild powercagebild hiitthegroundbild seniorbild"
+        ;
+    }
+    .powercircuitbild {
+        width: 300px;
+        height: 300px;
+        border:10px solid grey;
+        border-radius: 50px;
+    }
+    .powercagebild {
+        width: 300px;
+        height: 300px;
+        border:10px solid grey;
+        border-radius: 50px;
+    }
+    .hiitthegroundbild {
+        width: 300px;
+        height: 300px;
+        border:10px solid grey;
+        border-radius: 50px;
+    }
+    .seniorbild {
+        width: 300px;
+        height: 300px;
+        border:10px solid grey;
+        border-radius: 50px;
+    }
+    .beskrivningrubriksvart {
+        grid-area: br;
+        color: black;
+        font-size: 60px;
+        margin-left: 20px;
+    }
+    .beskrivningompassetsvart {
+        grid-area: bo;
+        color: svart;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .vadvierbjuder3 {
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+    .konditionsbilder {
+        display: grid;
+        height: 400px;
+        grid-template-areas: 
+        "aimbild löpningbild cykelbild"
+        ;
+    }
+    .konditionsbild {
+        width: 400px;
+        height: 400px;
+        border:10px solid grey;
+        border-radius: 50px;
+    }
+    .styrkebeskrivning {
+        height: 150px;
+        background-color: orange;
+    }
+    .vadvierbjuder4 {
+        background-color: orange;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .styrkebilder {
+        display: grid;
+        height: 250px;
+        background-color: orange;
+        grid-template-areas: 
+        "bodypump bodycombat powercircuit powercage hiittheground"
+        ;
+    }
+    .styrkebild {
+        width: 250px;
+        height: 250px;
+        border:10px solid grey;
+        border-radius: 50px;
+    }
+    .avslappningsbeskrivning {
+        height: 150px;
+        background-color: turquoise;
+    }
+    .vadvierbjuder5 {
+        background-color: turquoise;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .avslappningsbilder {
+        display: grid;
+        height: 400px;
+        background-color: turquoise;
+        grid-template-areas: 
+        "bodybalance yoga pilates"
+        ;
+    }
+    .avslappningsbild {
+        width: 400px;
+        height: 400px;
+        border:10px solid grey;
+        border-radius: 50px;
+    }
+    .sportbeskrivning {
+        height: 150px;
+        background-color: green;
+    }
+    .vadvierbjuder6 {
+        background-color: green;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .sportbilder {
+        display: grid;
+        height: 200px;
+        background-color: green;
+        grid-template-areas: 
+        "fotboll spökboll volleyboll innebandy basket badminton"
+        ;
+    }
+    .sportbild {
+        width: 200px;
+        height: 200px;
+        border:10px solid grey;
+        border-radius: 50px;
+    }
+    .dansbeskrivning {
+        height: 150px;
+        background-color: yellow;
+    }
+    .vadvierbjuder7 {
+        background-color: yellow;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        color: black;
+    }
+    .dansbilder {
+        display: grid;
+        height: 400px;
+        background-color: yellow;
+        grid-template-areas: 
+        "shbam zumba street"
+        ;
+    }
+    .dansbild {
+        width: 400px;
+        height: 400px;
+        border:10px solid grey;
+        border-radius: 50px;
+    }
+    .crossfitbeskrivning {
+        height: 200px;
+        background-color: slategrey;
+    }
+    .vadvierbjuder8 {
+        background-color: slategrey;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .crossfitbilder {
+        display: grid;
+        height: 400px;
+        background-color: slategrey;
+        grid-template-areas: 
+        "begin str oly"
+        ;
+    }
+    .övrigbeskrivning {
+        height: 200px;
+        background-color: purple; 
+    }
+    .checker {
+        font-size: 25px;
+        color: white;
+        padding: 10px;
+        background-color: #78c70a;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-bottom: 5px;
+    }
+    .vadvierbjuder9 {
+        background-color: purple;
+        font-size: 60px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 50px;
+    }
+    .poppisbilder {
+        display: grid;
+        height: 300px;
+        background-color: purple;
+        grid-template-areas: 
+        "bp pc pi cy"
+        ;
+    }
+    /**/
+    .schemaintro {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .schemastrong {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .torsdagsschemat {
+        display: grid;
+        height: 50px;
+        grid-template-areas: 
+        "ti vä in pa sa bo"
+        ;
+    }
+    .time {
+        font-size: 30px;
+        background-color: black;
+        color: white;
+    }
+    .infobar {
+        width: 30px;
+    }
+    .info {
+        width: 45px;
+        height: 45px;
+        padding: 8px;
+    }
+    .vänta {
+        font-size: 30px;
+        color: blue;
+        background-color: black;
+    }
+    .vänta1 {
+        font-size: 30px;
+        color: orange;
+        background-color: black;
+    }
+    .pass {
+        font-size: 30px;
+    }
+    .salenG {
+        font-size: 30px;
+        background-color: red;
+        border-radius: 50px;
+    }
+    .salenK {
+        font-size: 30px;
+        background-color: green;
+        border-radius: 50px;
+    }
+    .salenL {
+        font-size: 30px;
+        background-color: blue;
+        border-radius: 50px;
+    }
+    .boka {
+        font-size: 30px;
+    }
+    .bok {
+        padding: 0.1px;
+        border-radius: 20px;
+        background-color: #78c70a;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .grey {
+        background-color: black;
+        padding: 0.1px;
+        height: 1465px;
+    }
+    .avslappningar {
+        background-color: turquoise;
+        font-size: 30px;
+    }
+    .konditionar {
+        background-color: white;
+        font-size: 30px;
+    }
+    .corear {
+        background-color: darkred;
+        font-size: 30px;
+    }
+    .crossfitar {
+        padding: 0.1px;
+        background-color: slategrey;
+        font-size: 30px;
+    }
+    .styrkar {
+        padding: 0.1px;
+        background-color: orange;
+        font-size: 30px;
+    }
+    .dansar {
+        padding: 0.1px;
+        background-color: yellow;
+        font-size: 30px;
+    }
+    .sportar {
+        padding: 0.1px;
+        background-color: darkgreen;
+        font-size: 30px;
+    }
+    .torsdag183 {
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .jadu {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        font-size: 30px;
+    }
+    .Gibraltargatan {
+        background-color: red;
+        color: white;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .Kaserntorget {
+        background-color: green;
+        color: white;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .lindholmen {
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .klätterlabbet {
+        background-color: purple;
+        color: white;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .mellanrum2 {
+        background-color: black;
+        font-size: 20px;
+    }
+    .annandag {
+        background-color: #78c70a;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        border-radius: 20px;
+    }
+    .annandag2 {
+        background-color: black;
+        height: 100px;
+    }
+    .zoomingaproblem {
+        display: grid;
+        grid-template-areas: 
+        "zb zr"
+        ;
+        background-color: black;
+    }
+    .zoombild {
+        width: 600px;
+        height: 400px;
+    }
+    .zoomtext {
+        width: 600px;
+        height: 400px;
+    }
+    .annandag3 {
+        background-color: black;
+        height: 100px;
+        display: grid;
+        grid-template-areas: 
+        "an an"
+        ;
+    }
+    .annandag4 {
+        background-color: #78c70a;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 20px;
+    }
+    .bokningsrubrik {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .bokningsreg {
+        height: 200px;
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -310,7 +744,7 @@
 @media only screen and (max-width: 415px) {
     .mobilestart {
         width: 100%;
-        height: 100%;
+        height: 100px;
         font-family: 'Work Sans', sans-serif;
     }
     .navdesk {
@@ -325,6 +759,28 @@
     .nav4 {
         display: none;
     }
+    .nav1 {
+        display: none;
+    }
+    .nav2 {
+        display: none;
+    }
+    .nav3 {
+        display: none;
+    }
+    .logo {
+        display: none;
+    }
+
+    .corona {
+        display: none;
+    }
+    .warning {
+        display: none;
+    }
+    .aktuellt {
+        display: none;
+    }
     .welcome {
         display: none;
     }
@@ -337,17 +793,71 @@
     .bryt {
         display: none;
     }
+    .w3-content w3-display-container {
+        display: none;
+    }
+    .myslides {
+        display: none;
+    }
+    .w3-button w3-black w3-display-left {
+        display: none;
+    }
+    .w3-button w3-black w3-display-right {
+        display: none;
+    }
+    .gymback1 {
+        display: none;
+    }
+    .bryt {
+        display: none;
+    }
+    .kuriosa {
+        display: none;
+    }
+    .article1 {
+        display: none;
+    }
+    .insbild {
+        display: none;
+    }
+    .tryckknapp {
+        display: none;
+    }
+    .article2 {
+        display: none;
+    }
+    .article3 {
+        display: none;
+    }
+    .article4 {
+        display: none;
+    }
+    .article5 {
+        display: none;
+    }
+    .article6 {
+        display: none;
+    }
+    .belowfooter1 {
+        display: none;
+    }
     .menu{
-        height: 100vh;
+        height: 60vh;
         width: 100%;
-        background: hotpink;
+        background: black;
         position: fixed;
         top: 0;
-        left: -90vh;
+        left: -100vw;
         transition: left 0.3s;
         box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
         z-index: 10;
-        display: none;
+        display: grid;
+        grid-template-areas: 
+        "rh"
+        "rh"
+        "rh"
+        "rh2"
+        ;
     }
     
     .menu-button{
@@ -357,19 +867,35 @@
     }
     
     .menu-button i.material-icons{
-        font-size: 4rem;
-        grid-area: mb;
+        font-size: 5rem;
         color: white;
+        margin-left: 110px;
         margin-top: 10px;
-        margin-left: 60px;
     }
     
     .show{
         left: 0;
     }
+    
+    .fade-layer{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        display: none;
+        z-index: 5;
+    }
+    
+    .fade-layer.visible{
+        display: block;
+    }
+
+    
     .navmobil {
         width: 100%;
-        height: 150px;
+        height: 90px;
         background-color: black;
         grid-template-areas: 
         "lo mb"
@@ -377,9 +903,32 @@
     }
     .logomobil {
         width: 40%;
-        height: 40%;
-        margin-left: 30px;
-        margin-bottom: 21px;
+        height: 60%;
+        margin-left: 20px;
+        margin-bottom: 60px;
+
+    }
+    .logohamburg {
+        width: 220px;
+        height: 90px;
+        margin-left: 90px;
+    }
+    .rubrikhamburg {
+        color: white;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .rubrikhamburg2 {
+        color: white;
+        font-size: 20px;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-bottom: 80px;
+        background-color: #78c70a;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
     }
     .welcome1 {
         width: 100%;
@@ -412,7 +961,7 @@
     .yinis3 {
         font-size: 20px;
         margin-left: 50%;
-        padding: 10px;
+        padding: 5px;
         background-color: #78c70a;
         border-radius: 30px;
     }
@@ -423,7 +972,7 @@
     .yinis4 {
         font-size: 20px;
         margin-left: 20%;
-        padding: 10px;
+        padding: 5px;
         background-color: #78c70a;
         border-radius: 30px;
         margin-top: 30px;
@@ -445,6 +994,321 @@
         width: 60px;
         height: 25px;
     }
+    .funktionellabilder {
+        display: none;
+    }
+.powercircuitbild {
+    display: none;
+}
+.powercagebild {
+    display: none;
+}
+.hiitthegroundbild {
+    display: none;
+}
+.seniorbild {
+    display: none;
+}
+.konditionsbeskrivning {
+    display: none;
+}
+.beskrivningrubriksvart {
+    display: none;
+}
+.beskrivningompassetsvart {
+    display: none;
+}
+.vadvierbjuder3 {
+    display: none;
+}
+.konditionsbilder {
+    display: none;
+}
+.styrkebeskrivning {
+    display: none;
+}
+.vadvierbjuder4 {
+    display: none;
+}
+.styrkebilder {
+    display: none;
+}
+.styrkebild {
+    display: none;
+}
+.avslappningbeskrivning {
+    display: none;
+}
+.vadvierbjuder5 {
+    display: none;
+}
+.avslappningsbilder {
+    display: none;
+}
+.avslappningsbild {
+    display: none;
+}
+.sportbeskrivning {
+    display: none;
+}
+.vadvierbjuder6 {
+    display: none;
+}
+.sportbilder {
+    display: none;
+}
+.sportbild {
+    display: none;
+}
+.dansbeskrivning {
+    display: none;
+}
+.vadvierbjuder7 {
+    display: none;
+}
+.dansbilder {
+    display: none;
+}
+.dansbild {
+    display: none;
+}
+.crossfitbeskrivning {
+    display: none;
+}
+.vadvierbjuder8 {
+    display: none;
+}
+.crossfitbilder {
+    display: none;
+}
+.övrigbeskrivning {
+    display: none;
+} 
+.vadvierbjuder9 {
+    display: none;
+}
+.poppisbilder {
+    display: none;
+}
+.gruppträningintro {
+    display: none;
+}
+.gruppträningrubrik {
+    display: none;
+}
+.beskrivgrupp {
+    display: none;
+}
+.gruppnavigator {
+    display: none;
+}
+.core {
+    display: none;
+}
+.funktionellträning {
+    display: none;
+}
+.konditionsträning {
+    display: none;
+}
+.styrketräning {
+    display: none;
+}
+.avslappning {
+    display: none;
+}
+.bollsport {
+    display: none;
+}
+.crossfit {
+    display: none;
+}
+.dans {
+    display: none;
+}
+.övrigt {
+    display: none;
+}
+.corebeskrivning {
+    display: none;
+}
+.beskrivningrubrik {
+    display: none;
+}
+.beskrivningompasset {
+    display: none;
+}
+.vadvierbjuder {
+    display: none;
+}
+.corebilder {
+    display: none;
+}
+.konditionsbild {
+    display: none;
+}
+.funktionellbeskrivning {
+    display: none;
+}
+.vadvierbjuder2 {
+    display: none;
+}
+.footermobil1  {
+    display: none;
+}
+.gruppträningrubrikmobil {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.gruppträningbeskrivningmobil {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-content: center;
+}
+.gruppträningmobil {
+    background-color: black;
+}
+.utbudmobil {
+    height: 1050px;
+}
+.vårautbud {
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.corebildmobil {
+    background-color: darkred;
+    border-radius: 30px;
+    width: 380px;
+    height: 70px;
+    margin: 20px;
+}
+.funktionellbildmobil {
+    background-color: blue;
+    border-radius: 30px;
+    width: 380px;
+    height: 70px;
+    margin: 20px;
+}
+.konditionsbildmobil {
+    background-color: white;
+    border-radius: 30px;
+    width: 380px;
+    height: 70px;
+    margin: 20px;
+}
+.styrkebildmobil {
+    background-color: orange;
+    border-radius: 30px;
+    width: 380px;
+    height: 70px;
+    margin: 20px;
+}
+.yogamobil {
+    background-color: turquoise;
+    border-radius: 30px;
+    width: 380px;
+    height: 70px;
+    margin: 20px;
+}
+.bollsportmobil {
+    background-color: darkgreen;
+    border-radius: 30px;
+    width: 380px;
+    height: 70px;
+    margin: 20px;
+}
+.crossfitmobil {
+    background-color: grey;
+    border-radius: 30px;
+    width: 380px;
+    height: 70px;
+    margin: 20px;
+}
+.dansbildmobil {
+    background-color: yellow;
+    border-radius: 30px;
+    width: 380px;
+    height: 70px;
+    margin: 20px;
+}
+.övrigbildmobil {
+    background-color: purple;
+    border-radius: 30px;
+    width: 380px;
+    height: 70px;
+    margin: 20px;
+}
+.corerutan {
+    background-color: darkred;
+    color: white;
+}
+.beskrivningrubrikmobil {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;  
+}
+.beskrivningompassetmobil {
+    display: flex;
+    justify-content: center;
+}
+.vadvierbjuderm {
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+}
+.corerutabild { 
+width: 200px;
+height: 200px;
+border:10px solid grey;
+border-radius: 50px;
+}
+.funktionellrutan {
+background-color: darkblue;
+color: white;
+}
+.konditionsrutan {
+    background-color: white;
+    color: black;
+}
+.avslappningsrutan {
+    background-color: turquoise;
+    color: white;
+}
+.styrkerutan {
+    background-color: orange;
+    color: white;
+}
+.bollsportrutan {
+    background-color: darkgreen;
+    color: white;
+}
+.crossfitrutan {
+    background-color: SLATEgrey;
+    color: white;
+}
+.dansrutan {
+    background-color: yellow;
+    color: black;
+}
+.övrigruta {
+    background-color: purple;
+    color: white;
+}
+.checkerM {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #78c70a;
+    border-radius: 30px;
 
-    
 }
