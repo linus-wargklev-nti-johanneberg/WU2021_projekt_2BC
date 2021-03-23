@@ -724,9 +724,27 @@
         justify-content: center;
     }
     .bokningsreg {
-        height: 200px;
+        height: 400px;
+        background-color: black;
     }
-
+    .vadardethar {
+        font-size: 25px;
+        color: white;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
+    .lista {
+        font-size: 20px;
+        color: white;
+        background-color: black;
+        margin: 40px;
+    }
+    .blimedlemrubrik {
+        background-color: black;
+        color: white;
+        font-size: 30px;
+    }
 
 
 
@@ -847,7 +865,7 @@
         background: black;
         position: fixed;
         top: 0;
-        left: -100vw;
+        left: -120vw;
         transition: left 0.3s;
         box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
         z-index: 10;
@@ -1165,11 +1183,11 @@
     margin: 0;
 }
 .gruppträningbeskrivningmobil {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     background-color: black;
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 .gruppträningmobil {
     background-color: black;
@@ -1311,4 +1329,238 @@ color: white;
     background-color: #78c70a;
     border-radius: 30px;
 
+}
+.schemaintro {
+    display: none;
+}
+.schemarubrik {
+    display: none;
+}
+.schemastrong {
+    display: none;
+}
+.grey {
+    display: none;
+}
+.torsdag183 {
+    display: none;
+}
+.jadu {
+    display: none;
+}
+.Gibraltargatan {
+    display: none;
+}
+.Kaserntorget {
+    display: none;
+}
+.Klätterlabbet {
+    display: none;
+}
+.torsdagsschemat {
+    display: none;
+}
+.tider {
+    display: none;
+}
+.time {
+    display: none;
+}
+.väntalista {
+    display: none;
+}
+.vänta1 {
+    display: none;
+}
+.vänta {
+    display: none;
+}
+.infobar {
+    display: none;
+}
+.info {
+    display: none;
+}
+.passiset {
+    display: none;
+}
+.avslappningar {
+    display: none;
+}
+.konditionar {
+    display: none;
+}
+.corear {
+    display: none;
+}
+.crossfitar {
+    display: none;
+}
+.dansar {
+    display: none;
+}
+.styrkar {
+    display: none;
+}
+.sportar {
+    display: none;
+}
+.salar {
+    display: none;
+}
+.salenG {
+    display: none;
+}
+.salenK {
+    display: none;
+}
+.salenL {
+    display: none;
+}
+.boka {
+    display: none;
+}
+.bok {
+    display: none;
+}
+.mellanrum2 {
+    display: none;
+}
+.annandag3 {
+    display: none;
+}
+.annandag4 {
+    display: none;
+}
+.annandag2 {
+    display: none;
+}
+.annandag {
+    display: none;
+}
+.zoomingaproblem {
+    display: none;
+}
+.zoombild {
+    display: none;
+}
+.zoomtext {
+    display: none;
+}
+.bokningsreg {
+    display: none;
+}
+.bokningsrubrik {
+    display: none;
+}
+.vadardethar {
+    display: none;
+}
+.bokningmobil {
+    background-color: black;
+    color: white;
+}
+.black {
+    background-color: black;
+}
+.bokarubrikmobil {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.bokarubrikbeskrivning {
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.torsdag183m {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.centerbesök {
+    color: white;
+    font-size: 30px;
+}
+.GibraltargatanM {
+    padding: 1px;
+    margin: 40px;
+    margin-top: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.KaserntorgetM {
+    padding: 1px;
+    margin: 40px;
+    margin-top: 20px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.LindholmenM {
+    padding: 1px;
+    margin: 40px;
+    margin-top: 20px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.KlätterlabbetM {
+    padding: 1px;
+    margin: 40px;
+    margin-top: 20px;
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+.tillboka {
+    padding: 10px;
+    color: white;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #78c70a;
+    border-radius: 40px;
+}
+.zoombildM {
+    width: 100%;
+    background-image: url(../img/zoom.jfif);
+}
+.zoombildB {
+    width: 100%;
+}
+.seschematM {
+    padding: 10px;
+    color: white;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #78c70a;
+    border-radius: 40px;
+}
+.bokningsreglerM {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.bokningRB {
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+.listan {
+    color: white;
+    font-size: 15px; 
+}
+.fragor {
+    color: white;
+    font-size: 15px;
+}
 }
