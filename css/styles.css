@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-@media only screen and (min-width: 416px) {
+@media only screen and (min-width: 430px) {
     .mobilestart {
         display: none;
     }
@@ -63,6 +63,11 @@
     .footermobil {
         display: none;
     }
+    .newfooter {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+    }
     .footerlogo {
         display: none;
     }
@@ -82,12 +87,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
     }
     .logointro {
         width: 140px;
         height: 50px;
         grid-area: lo;
         margin: 20px;
+        border-radius: 35px;
     }
     .naviga {
         color: white;
@@ -172,8 +181,7 @@
     .belowfooter1 {
         background-color: #191919;
         color: white;
-        width: 100%;
-        height: 1200px;
+        height: 1130px;
     }
     .gruppträningintro {
         background-color: black;
@@ -529,54 +537,7 @@
         justify-content: center;
         font-size: 20px;
     }
-    .torsdagsschemat {
-        display: grid;
-        height: 50px;
-        grid-template-areas: 
-        "ti vä in pa sa bo"
-        ;
-    }
-    .time {
-        font-size: 30px;
-        background-color: black;
-        color: white;
-    }
-    .infobar {
-        width: 30px;
-    }
-    .info {
-        width: 45px;
-        height: 45px;
-        padding: 8px;
-    }
-    .vänta {
-        font-size: 30px;
-        color: blue;
-        background-color: black;
-    }
-    .vänta1 {
-        font-size: 30px;
-        color: orange;
-        background-color: black;
-    }
-    .pass {
-        font-size: 30px;
-    }
-    .salenG {
-        font-size: 30px;
-        background-color: red;
-        border-radius: 50px;
-    }
-    .salenK {
-        font-size: 30px;
-        background-color: green;
-        border-radius: 50px;
-    }
-    .salenL {
-        font-size: 30px;
-        background-color: blue;
-        border-radius: 50px;
-    }
+    
     .boka {
         font-size: 30px;
     }
@@ -591,39 +552,41 @@
     .grey {
         background-color: black;
         padding: 0.1px;
-        height: 1465px;
+        height: 700px;
     }
-    .avslappningar {
-        background-color: turquoise;
-        font-size: 30px;
+    .torsdagar {
+        width: 100%;
+        height: 600px;
+        display: grid;
+        grid-template-areas: 
+        "t1 t2 t3"
+        "t4 t5 t6"
+        "t7 t8 t9"
+        ;
     }
-    .konditionar {
-        background-color: white;
-        font-size: 30px;
+    .torsdagrubrik {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        color: white;
     }
-    .corear {
-        background-color: darkred;
-        font-size: 30px;
+    .torsdagbeskrivning {
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        color: white;
     }
-    .crossfitar {
-        padding: 0.1px;
-        background-color: slategrey;
-        font-size: 30px;
-    }
-    .styrkar {
-        padding: 0.1px;
-        background-color: orange;
-        font-size: 30px;
-    }
-    .dansar {
-        padding: 0.1px;
-        background-color: yellow;
-        font-size: 30px;
-    }
-    .sportar {
-        padding: 0.1px;
-        background-color: darkgreen;
-        font-size: 30px;
+    .bokningsknapp {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding: 5px;
+        background-color: #78c70a;
+        margin-top: 10px;
+        margin-left: 90px;
+        margin-right: 90px;
+        border-radius: 30px;
     }
     .torsdag183 {
         color: white;
@@ -745,6 +708,260 @@
         color: white;
         font-size: 30px;
     }
+    .anläggningintro {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .anläggningbeskrivning {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .grey1 {
+        background-color: black;
+    }
+    .anläggningbilder {
+        width: 100%;
+        height: 260px;
+        display: grid;
+        grid-template-areas:  
+        "ab ab ab"
+        ;
+    }
+    .abab {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+        border-radius: 20px;
+    }
+    .anläggningtext {
+        width: 100%;
+        height: 260px;
+        display: grid;
+        grid-template-areas:  
+        "var1 var2 var3"
+        ;
+        margin-left: 60px;
+    }
+    .varte1 {
+        color: white;
+    }
+    .varte2 {
+        color: white;
+    }
+    .varte3 {
+        color: white;
+    }
+    .kontaktis {
+        padding: 3px;
+        background-color: #78c70a;
+        border-radius: 20px;
+    }
+    .anläggningsrubrikmobil { 
+        display: none;
+    }
+    .anläggningrubrikbeskrivning{ 
+        display: none;
+    }
+    .gymmobil{ 
+        display: none;
+    }
+    .vartee{ 
+        display: none;
+    }
+    .gymrubrik{ 
+        display: none;
+    }
+    .adress{ 
+        display: none;
+    }
+    .postnummer{ 
+        display: none;
+    }
+    .oppetider{ 
+        display: none;
+    }
+    .kontaktism { 
+        display: none;
+    }
+    .blienmedlem {
+        background-color: black;
+        color: white;
+    }
+    .blimedlemrubrik {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+    .blimedlembeskrivning {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    .pga {
+        display: flex;
+        justify-content: center;
+    }
+    .blimedlemmobil {
+        display: none;
+    }
+    .blimedlemmobilrubrik {
+        display: none;
+    }
+    .blimedlembeskrivningm {
+        display: none;
+    }
+    .pgam {
+        display: none;
+    }
+    .rubis {
+        display: none;
+    }
+    .rubisbe {
+        display: none;
+    }
+    .knappis {
+        display: none;
+    }
+    .bokningmobil {
+        display: none;
+    }
+.bokarubrikmobil {
+    display: none;
+}
+.bokarubrikbeskrivning {
+    display: none;
+}
+.torsdag183m {
+    display: none;
+}
+.centerbesök {
+    display: none;
+}
+.GibraltargatanM {
+    display: none;
+}
+.KaserntorgetM {
+    display: none;
+}
+.LindholmenM {
+    display: none;
+}
+.KlätterlabbetM {
+    display: none;
+}
+.tillboka {
+    display: none;
+}
+.zoombildM {
+    display: none;
+}
+.zoombildB {
+    display: none;
+}
+.seschematM {
+    display: none;
+}
+.bokningsreglerM {
+    display: none;
+}
+.bokningRB {
+    display: none;
+}
+.listan {
+    display: none;
+}
+.fragor {
+    display: none;
+}
+.gruppträningrubrikmobil {
+    display: none;
+}
+.gruppträningbeskrivningmobil {
+    display: none;
+}
+.utbudmobil {
+    display: none;
+}
+.vårautbud {
+    display: none;
+}
+.corebildmobil {
+    display: none;
+}
+.funktionellbildmobil {
+    display: none;
+}
+.konditionsbildmobil {
+    display: none;
+}
+.styrkebildmobil {
+    display: none;
+}
+.yogamobil {
+    display: none;
+}
+.bollsportmobil {
+    display: none;
+}
+.crossfitmobil {
+    display: none;
+}
+.dansbildmobil {
+    display: none;
+}
+.övrigbildmobil {
+    display: none;
+}
+.corerutan {
+    display: none;
+}
+.beskrivningrubrikmobil {
+    display: none;
+}
+.beskrivningompassetmobil {
+    display: none;
+}
+.vadvierbjuderm {
+    display: none;
+}
+.corerutabild {
+    display: none;
+}
+.funktionellrutan {
+    display: none;
+}
+.konditionsrutan {
+    display: none;
+}
+.avslappningsrutan {
+    display: none;
+}
+.styrkerutan {
+    display: none;
+}
+.bollsportrutan {
+    display: none;
+}
+.crossfitrutan {
+    display: none;
+}
+.dansrutan {
+    display: none;
+}
+.övrigruta {
+    display: none;
+}
+.checkerM {
+    display: none;
+}
+.mySlides {display:none;}
+
 
 
 
@@ -759,7 +976,7 @@
 }
 
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 429px) {
     .mobilestart {
         width: 100%;
         height: 100px;
@@ -918,6 +1135,9 @@
         grid-template-areas: 
         "lo mb"
         ;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
     }
     .logomobil {
         width: 40%;
@@ -930,6 +1150,8 @@
         width: 220px;
         height: 90px;
         margin-left: 90px;
+        margin-top: 10px;
+        border-radius: 20px;
     }
     .rubrikhamburg {
         color: white;
@@ -1009,8 +1231,8 @@
         color: white;
     }
     .footerlogo {
-        width: 60px;
-        height: 25px;
+        width: 40px;
+        height: 15px;
     }
     .funktionellabilder {
         display: none;
@@ -1204,63 +1426,63 @@
 .corebildmobil {
     background-color: darkred;
     border-radius: 30px;
-    width: 380px;
+    width: 340px;
     height: 70px;
     margin: 20px;
 }
 .funktionellbildmobil {
     background-color: blue;
     border-radius: 30px;
-    width: 380px;
+    width: 340px;
     height: 70px;
     margin: 20px;
 }
 .konditionsbildmobil {
     background-color: white;
     border-radius: 30px;
-    width: 380px;
+    width: 340px;
     height: 70px;
     margin: 20px;
 }
 .styrkebildmobil {
     background-color: orange;
     border-radius: 30px;
-    width: 380px;
+    width: 340px;
     height: 70px;
     margin: 20px;
 }
 .yogamobil {
     background-color: turquoise;
     border-radius: 30px;
-    width: 380px;
+    width: 340px;
     height: 70px;
     margin: 20px;
 }
 .bollsportmobil {
     background-color: darkgreen;
     border-radius: 30px;
-    width: 380px;
+    width: 340px;
     height: 70px;
     margin: 20px;
 }
 .crossfitmobil {
     background-color: grey;
     border-radius: 30px;
-    width: 380px;
+    width: 340px;
     height: 70px;
     margin: 20px;
 }
 .dansbildmobil {
     background-color: yellow;
     border-radius: 30px;
-    width: 380px;
+    width: 340px;
     height: 70px;
     margin: 20px;
 }
 .övrigbildmobil {
     background-color: purple;
     border-radius: 30px;
-    width: 380px;
+    width: 340px;
     height: 70px;
     margin: 20px;
 }
@@ -1562,5 +1784,166 @@ color: white;
 .fragor {
     color: white;
     font-size: 15px;
+}
+.anläggningintro { 
+    display: none;
+}
+.anläggningbeskrivning { 
+    display: none;
+}
+.anläggningbilder { 
+    display: none;
+}
+.abab { 
+    display: none;
+}
+.anläggningtext { 
+    display: none;
+}
+.varte1 { 
+    display: none;
+}
+.varte2 { 
+    display: none;
+}
+.varte3 { 
+    display: none;
+}
+.kontaktis {
+    display: none;
+}
+.anläggningsrubrikmobil {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.anläggningrubrikbeskrivning {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+} 
+.vartee {
+    width: 100%;
+    border-radius: 40px;
+
+}
+.gymrubrik {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.adress {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.postnummer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+.oppetider {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.kontaktism {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+    margin: 10px;
+    background-color: #78c70a;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.blienmedlem {
+    display: none;
+}
+.blimedlemrubrik {
+    display: none;
+}
+.blimedlembeskrivning {
+    display: none;
+}
+.pga {
+    display: none;
+}
+.torsdagar {
+    display: none;
+}
+.torsdagrubrik {
+    display: none;
+}
+.torsdagbeskrivning {
+    display: none;
+}
+.bokningsknapp {
+    display: none;
+}
+.torsdag1 {
+    display: none;
+}
+.torsdag2 {
+    display: none;
+}
+.torsdag3 {
+    display: none;
+}
+.torsdag4 {
+    display: none;
+}
+.torsdag5 {
+    display: none;
+}
+.torsdag6 {
+    display: none;
+}
+.torsdag7 {
+    display: none;
+}
+.torsdag8 {
+    display: none;
+}
+.torsdag9 {
+    display: none;
+}
+.blimedlemmobil {
+    color: white;
+}
+.blimedlemmobilrubrik {
+    display: flex;
+    justify-content: center;
+}
+.blimedlembeskrivningm {
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+}
+.rubis {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.rubisbe {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.knappis {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: 15px;
+    padding: 5px;
+    background-color: #78c70a;
+    border-radius: 20px;
 }
 }
