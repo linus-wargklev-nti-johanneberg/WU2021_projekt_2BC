@@ -45,7 +45,7 @@
     .yinis4 {
         display: none;
     }
-    .klättra {
+    .klattra {
         display: none;
     }
     .belowfooter {
@@ -183,11 +183,11 @@
         color: white;
         height: 1130px;
     }
-    .gruppträningintro {
+    .grupptraningintro {
         background-color: black;
         height: 200px;
     }
-    .gruppträningrubrik {
+    .grupptraningrubrik {
         font-size: 50px;
         color: white;
         display: flex;
@@ -216,19 +216,19 @@
         margin: 40px;
         border-radius: 100px;
     }
-    .funktionellträning {
+    .funktionelltraning {
         background-color: darkblue;
         width: 80%;
         margin: 40px;
         border-radius: 100px;
     }
-    .konditionsträning {
+    .konditionstraning {
         background-color: white;
         width: 80%;
         margin: 40px;
         border-radius: 100px;
     }
-    .styrketräning {
+    .styrketraning {
         background-color: orange;
         width: 80%;
         margin: 40px;
@@ -258,7 +258,7 @@
         margin: 40px;
         border-radius: 100px;
     }
-    .övrigt {
+    .ovrigt {
         background-color: purple;
         width: 80%;
         margin: 40px;
@@ -349,7 +349,7 @@
     }
     .beskrivningompassetsvart {
         grid-area: bo;
-        color: svart;
+        color: black;
         font-size: 20px;
         margin-left: 20px;
     }
@@ -363,7 +363,7 @@
         display: grid;
         height: 400px;
         grid-template-areas: 
-        "aimbild löpningbild cykelbild"
+        "aimbild lopningbild cykelbild"
         ;
     }
     .konditionsbild {
@@ -438,7 +438,7 @@
         height: 200px;
         background-color: green;
         grid-template-areas: 
-        "fotboll spökboll volleyboll innebandy basket badminton"
+        "fotboll spokboll volleyboll innebandy basket badminton"
         ;
     }
     .sportbild {
@@ -491,7 +491,7 @@
         "begin str oly"
         ;
     }
-    .övrigbeskrivning {
+    .ovrigbeskrivning {
         height: 200px;
         background-color: purple; 
     }
@@ -618,7 +618,7 @@
         border-radius: 20px;
         margin: 20px;
     }
-    .klätterlabbet {
+    .klatterlabbet {
         background-color: purple;
         color: white;
         border-radius: 20px;
@@ -708,13 +708,13 @@
         color: white;
         font-size: 30px;
     }
-    .anläggningintro {
+    .anlaggningintro {
         background-color: black;
         color: white;
         display: flex;
         justify-content: center;
     }
-    .anläggningbeskrivning {
+    .anlaggningbeskrivning {
         background-color: black;
         color: white;
         display: flex;
@@ -724,7 +724,7 @@
     .grey1 {
         background-color: black;
     }
-    .anläggningbilder {
+    .anlaggningbilder {
         width: 100%;
         height: 260px;
         display: grid;
@@ -739,7 +739,7 @@
         margin-left: 40px;
         border-radius: 20px;
     }
-    .anläggningtext {
+    .anlaggningtext {
         width: 100%;
         height: 260px;
         display: grid;
@@ -762,10 +762,10 @@
         background-color: #78c70a;
         border-radius: 20px;
     }
-    .anläggningsrubrikmobil { 
+    .anlaggningsrubrikmobil { 
         display: none;
     }
-    .anläggningrubrikbeskrivning{ 
+    .anlaggningrubrikbeskrivning{ 
         display: none;
     }
     .gymmobil{ 
@@ -840,7 +840,7 @@
 .torsdag183m {
     display: none;
 }
-.centerbesök {
+.centerbesok {
     display: none;
 }
 .GibraltargatanM {
@@ -852,7 +852,7 @@
 .LindholmenM {
     display: none;
 }
-.KlätterlabbetM {
+.KlatterlabbetM {
     display: none;
 }
 .tillboka {
@@ -879,16 +879,16 @@
 .fragor {
     display: none;
 }
-.gruppträningrubrikmobil {
+.grupptraningrubrikmobil {
     display: none;
 }
-.gruppträningbeskrivningmobil {
+.grupptraningbeskrivningmobil {
     display: none;
 }
 .utbudmobil {
     display: none;
 }
-.vårautbud {
+.varautbud {
     display: none;
 }
 .corebildmobil {
@@ -915,7 +915,7 @@
 .dansbildmobil {
     display: none;
 }
-.övrigbildmobil {
+.ovrigbildmobil {
     display: none;
 }
 .corerutan {
@@ -954,7 +954,7 @@
 .dansrutan {
     display: none;
 }
-.övrigruta {
+.ovrigruta {
     display: none;
 }
 .checkerM {
@@ -1205,7 +1205,7 @@
         background-color: #78c70a;
         border-radius: 30px;
     }
-    .klättra {
+    .klattra {
         width: 100%;
         height: 240px;
     }
@@ -1321,7 +1321,7 @@
 .crossfitbilder {
     display: none;
 }
-.övrigbeskrivning {
+.ovrigbeskrivning {
     display: none;
 } 
 .vadvierbjuder9 {
@@ -1330,10 +1330,10 @@
 .poppisbilder {
     display: none;
 }
-.gruppträningintro {
+.grupptraningintro {
     display: none;
 }
-.gruppträningrubrik {
+.grupptraningrubrik {
     display: none;
 }
 .beskrivgrupp {
@@ -1345,13 +1345,13 @@
 .core {
     display: none;
 }
-.funktionellträning {
+.funktionelltraning {
     display: none;
 }
-.konditionsträning {
+.konditionstraning {
     display: none;
 }
-.styrketräning {
+.styrketraning {
     display: none;
 }
 .avslappning {
@@ -1366,7 +1366,7 @@
 .dans {
     display: none;
 }
-.övrigt {
+.ovrigt {
     display: none;
 }
 .corebeskrivning {
@@ -1396,7 +1396,7 @@
 .footermobil1  {
     display: none;
 }
-.gruppträningrubrikmobil {
+.grupptraningrubrikmobil {
     font-size: 30px;
     color: white;
     background-color: black;
@@ -1404,20 +1404,20 @@
     justify-content: center;
     margin: 0;
 }
-.gruppträningbeskrivningmobil {
+.grupptraningbeskrivningmobil {
     font-size: 15px;
     color: white;
     background-color: black;
     display: flex;
     justify-content: center;
 }
-.gruppträningmobil {
+.grupptraningmobil {
     background-color: black;
 }
 .utbudmobil {
     height: 1050px;
 }
-.vårautbud {
+.varautbud {
     font-size: 35px;
     color: white;
     display: flex;
@@ -1479,7 +1479,7 @@
     height: 70px;
     margin: 20px;
 }
-.övrigbildmobil {
+.ovrigbildmobil {
     background-color: purple;
     border-radius: 30px;
     width: 340px;
@@ -1538,7 +1538,7 @@ color: white;
     background-color: yellow;
     color: black;
 }
-.övrigruta {
+.ovrigruta {
     background-color: purple;
     color: white;
 }
@@ -1576,7 +1576,7 @@ color: white;
 .Kaserntorget {
     display: none;
 }
-.Klätterlabbet {
+.Klatterlabbet {
     display: none;
 }
 .torsdagsschemat {
@@ -1588,13 +1588,13 @@ color: white;
 .time {
     display: none;
 }
-.väntalista {
+.vantalista {
     display: none;
 }
-.vänta1 {
+.vanta1 {
     display: none;
 }
-.vänta {
+.vanta {
     display: none;
 }
 .infobar {
@@ -1700,7 +1700,7 @@ color: white;
     display: flex;
     justify-content: center;
 }
-.centerbesök {
+.centerbesok {
     color: white;
     font-size: 30px;
 }
@@ -1731,7 +1731,7 @@ color: white;
     justify-content: center;
     border-radius: 50px;
 }
-.KlätterlabbetM {
+.KlatterlabbetM {
     padding: 1px;
     margin: 40px;
     margin-top: 20px;
@@ -1785,19 +1785,19 @@ color: white;
     color: white;
     font-size: 15px;
 }
-.anläggningintro { 
+.anlaggningintro { 
     display: none;
 }
-.anläggningbeskrivning { 
+.anlaggningbeskrivning { 
     display: none;
 }
-.anläggningbilder { 
+.anlaggningbilder { 
     display: none;
 }
 .abab { 
     display: none;
 }
-.anläggningtext { 
+.anlaggningtext { 
     display: none;
 }
 .varte1 { 
@@ -1812,12 +1812,12 @@ color: white;
 .kontaktis {
     display: none;
 }
-.anläggningsrubrikmobil {
+.anlaggningsrubrikmobil {
     color: white;
     display: flex;
     justify-content: center;
 }
-.anläggningrubrikbeskrivning {
+.anlaggningrubrikbeskrivning {
     color: white;
     display: flex;
     justify-content: center;
